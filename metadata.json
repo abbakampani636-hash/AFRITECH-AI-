@@ -1,0 +1,6 @@
+{
+  "name": "AFRITECH AI",
+  "description": "Premium dark navy & gold AI assistant featuring intelligent chat, English-Hausa translation, voice assistant, AI writing, learning, summarization, and image generation.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

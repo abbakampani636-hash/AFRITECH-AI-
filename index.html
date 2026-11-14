@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#060D1A" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <title>AFRITECH AI — Intelligent Assistant & Hausa Translator</title>
+    <meta name="description" content="AFRITECH AI is a modern dark navy and gold AI suite featuring intelligent chat, English-Hausa translation, voice assistant, AI writing, learning, summarization, and image generation." />
+    <meta property="og:title" content="AFRITECH AI — Intelligent Assistant & Hausa Translator" />
+    <meta property="og:description" content="Intelligent AI chat, English-Hausa translator, voice assistant, writing, learning, and summarization powered by Gemini." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#060D1A] text-[#F8FAFC] antialiased selection:bg-[#D4AF37]/30 selection:text-[#F8FAFC]">
+    <div id="root"></div>
+    <script>if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js").catch(() => {}));</script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
